@@ -22,6 +22,7 @@ h2 {
   font-size: 46px;
   line-height: 54px;
   color: #222;
+  text-align: center;
 }
 
 h4 {
@@ -38,6 +39,7 @@ p {
   font-size: 16px;
   color: #465b52;
   margin: 15px 0 20px 0;
+  text-align: center;
 }
 
 .section-p1 {
@@ -61,6 +63,12 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
+#header .logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000;
+  font-weight: 800;
+}
 #navbar {
   display: flex;
   align-items: center;
@@ -787,6 +795,54 @@ button.red:hover {
   font-size: 13px;
 }
 
+@media (max-width: 1024px) {
+  #banner-3 {
+    padding: 10px 10px;
+  }
+
+  #hero {
+    background-position: top 30% right 10%;
+  }
+
+  #feature {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+  }
+
+  #sm-banner .banner-box {
+    height: 25vh;
+    min-width: 0px;
+  }
+
+  #banner-3 .banner-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 820px) {
+  #banner-3 {
+    padding: 10px 10px;
+  }
+
+  #hero {
+    background-position: top 30% right 10%;
+  }
+
+  #sm-banner .banner-box {
+    height: 30vh;
+    min-width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   #navbar {
     display: flex;
@@ -837,7 +893,7 @@ button.red:hover {
   }
 
   #hero {
-    height: 700%;
+    height: 70%;
     padding: 0 80px;
     background-position: top 30% right 30%;
   }
@@ -850,12 +906,17 @@ button.red:hover {
     margin: 16px;
   }
 
-  #banner {
-    height: 20vh;
+  #product1 .pro .des h5 {
+    display: none;
   }
-  #sm-banner .banner {
-    margin: 100%;
+
+  #sm-banner .banner-box {
     height: 30vh;
+    min-width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    width: 100%;
   }
 
   #banner-3 {
@@ -868,6 +929,31 @@ button.red:hover {
 
   #newsletter .form {
     width: 70%;
+  }
+}
+
+@media (max-width: 540px) {
+  #feature {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #product1 .pro .des h4 {
+    color: #088178;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  #product1 .pro .des h5 {
+    display: none;
+  }
+
+  #sm-banner .banner-box {
+    height: 30vh;
+    min-width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    width: 100%;
   }
 }
 
@@ -1000,5 +1086,60 @@ button.red:hover {
 
   .table_header {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 430px) {
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+
+  #feature {
+    display: grid;
+    grid-template-columns: 40vh;
+    justify-items: center;
+  }
+}
+@media (max-width: 414px) {
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+
+  #feature {
+    display: grid;
+    grid-template-columns: 40vh;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 390px) {
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+
+  #feature {
+    display: grid;
+    grid-template-columns: 40vh;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 280px) {
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+
+  #feature {
+    display: grid;
+    grid-template-columns: 40vh;
+    justify-items: center;
   }
 }
