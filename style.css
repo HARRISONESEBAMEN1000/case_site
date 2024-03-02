@@ -226,7 +226,7 @@ body {
 }
 
 #product1 .pro img {
-  width: 100%;
+  width: 90%;
   border-radius: 20px;
 }
 
@@ -844,48 +844,19 @@ button.red:hover {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    margin-top: 20px;
+  }
   #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: #e3e6f3;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    padding: 80px 0 0 10px;
-    transition: 0.3s;
-  }
-
-  #navbar.active {
-    right: 0px;
-  }
-
-  #navbar li {
-    margin-bottom: 25px;
-  }
-
-  #mobile {
-    display: flex;
-    align-items: center;
+    margin-top: 20px;
   }
 
   #mobile i {
-    color: #1a1a1a;
-    font-size: 24px;
-    padding-left: 20px;
+    display: none;
   }
 
   #close {
-    display: initial;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    font-size: 24px;
-    color: #000;
+    display: none;
   }
 
   #lg-bag {
@@ -893,7 +864,6 @@ button.red:hover {
   }
 
   #hero {
-    height: 70%;
     padding: 0 80px;
     background-position: top 30% right 30%;
   }
@@ -933,6 +903,30 @@ button.red:hover {
 }
 
 @media (max-width: 540px) {
+  #navbar li {
+    padding: 0 5px;
+  }
+
+  #navbar li a {
+    font-size: 13px;
+  }
+
+  #mobile i {
+    display: none;
+  }
+
+  #close {
+    display: none;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+  #product1 .pro {
+    width: 60%;
+    min-width: 200px;
+  }
+
   #feature {
     display: grid;
     grid-template-columns: auto auto;
@@ -953,7 +947,7 @@ button.red:hover {
   }
 
   #banner-3 .banner-box {
-    width: 100%;
+    width: 100vh;
   }
 }
 
@@ -1131,15 +1125,71 @@ button.red:hover {
 }
 
 @media (max-width: 280px) {
-  #product1 .pro-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
+  .logo {
+    display: none;
+  }
+
+  #navbar {
+    margin-left: 0%;
+  }
+
+  #hero {
+    background-image: url(img/hero4.png);
+    height: 55vh;
+    width: 43vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
   }
 
   #feature {
     display: grid;
-    grid-template-columns: 40vh;
+    grid-template-columns: auto auto;
     justify-items: center;
+    padding: 10px;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    padding: 5px 5px;
+  }
+
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  #product1 .pro {
+    min-width: 100px;
+  }
+
+  #product1 .pro .cart {
+    display: none;
+  }
+
+  #product1 .pro img {
+    width: 100%;
+  }
+
+  #banner {
+    width: 43vh;
+  }
+
+  #sm-banner .banner-box {
+    height: 40vh;
+    border-radius: 30px;
+    min-width: 0px;
+  }
+
+  #banner-3 .banner-box {
+    height: 40vh;
+    border-radius: 30px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: auto;
   }
 }
