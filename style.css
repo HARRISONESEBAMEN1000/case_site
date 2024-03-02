@@ -1083,48 +1083,7 @@ button.red:hover {
   }
 }
 
-@media (max-width: 430px) {
-  #product1 .pro-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
-  }
-
-  #feature {
-    display: grid;
-    grid-template-columns: 40vh;
-    justify-items: center;
-  }
-}
 @media (max-width: 414px) {
-  #product1 .pro-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
-  }
-
-  #feature {
-    display: grid;
-    grid-template-columns: 40vh;
-    justify-items: center;
-  }
-}
-
-@media (max-width: 390px) {
-  #product1 .pro-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
-  }
-
-  #feature {
-    display: grid;
-    grid-template-columns: 40vh;
-    justify-items: center;
-  }
-}
-
-@media (max-width: 280px) {
   .logo {
     display: none;
   }
@@ -1136,10 +1095,392 @@ button.red:hover {
   #hero {
     background-image: url(img/hero4.png);
     height: 55vh;
-    width: 43vh;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  #feature {
+    grid-template-columns: auto auto auto;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    padding: 5px 5px;
+  }
+
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  #product1 .pro {
+    min-width: 100px;
+  }
+
+  #product1 .pro .cart {
+    display: none;
+  }
+
+  #product1 .pro img {
+    width: 100%;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #sm-banner .banner-box {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    border-radius: 30px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: auto;
+  }
+}
+
+@media (max-width: 430px) {
+  .logo {
+    display: none;
+  }
+
+  #navbar {
+    margin-left: 0%;
+  }
+
+  #hero {
+    background-image: url(img/hero4.png);
+    height: 55vh;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 40px;
+    margin-top: 2px;
+  }
+
+  #feature {
+    grid-template-columns: auto auto auto;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    padding: 5px 5px;
+  }
+
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  #product1 .pro {
+    min-width: 100px;
+  }
+
+  #product1 .pro .cart {
+    display: none;
+  }
+
+  #product1 .pro img {
+    width: 100%;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #sm-banner .banner-box {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    border-radius: 30px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: auto;
+  }
+}
+@media (max-width: 414px) {
+  .logo {
+    display: none;
+  }
+
+  #navbar {
+    margin-left: 0%;
+  }
+
+  #hero {
+    background-image: url(img/hero4.png);
+    height: 55vh;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  #feature {
+    grid-template-columns: auto auto auto;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    padding: 5px 5px;
+  }
+
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  #product1 .pro {
+    min-width: 100px;
+  }
+
+  #product1 .pro .cart {
+    display: none;
+  }
+
+  #product1 .pro img {
+    width: 100%;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #sm-banner .banner-box {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    border-radius: 30px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo {
+    display: none;
+  }
+
+  #navbar {
+    margin-left: 0%;
+  }
+
+  #hero {
+    background-image: url(img/hero4.png);
+    height: 55vh;
+    width: 23.3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+
+  #feature {
+    grid-template-columns: auto auto auto;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    padding: 5px 5px;
+  }
+
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  #product1 .pro {
+    min-width: 100px;
+  }
+
+  #product1 .pro .cart {
+    display: none;
+  }
+
+  #product1 .pro img {
+    width: 100%;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #sm-banner .banner-box {
+    border-radius: 30px;
+  }
+
+  #banner-3 .banner-box {
+    border-radius: 30px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: auto;
+  }
+}
+
+@media (max-width: 430px) {
+  .logo {
+    display: none;
+  }
+
+  #navbar {
+    margin-left: 0%;
+  }
+
+  #hero {
+    background-image: url(img/hero4.png);
+    height: 55vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+
+  #feature {
+    grid-template-columns: auto auto auto;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    padding: 5px 5px;
+  }
+
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  #product1 .pro {
+    min-width: 100px;
+  }
+
+  #product1 .pro .cart {
+    display: none;
+  }
+
+  #product1 .pro img {
+    width: 100%;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #sm-banner .banner-box {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    border-radius: 30px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: auto;
+  }
+}
+@media (max-width: 360px) {
+  .logo {
+    display: none;
+  }
+
+  #navbar {
+    margin-left: 0%;
+  }
+
+  #hero {
+    background-image: url(img/hero4.png);
+    height: 55vh;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  #feature {
+    grid-template-columns: auto auto auto;
+  }
+
+  #feature .fe-box {
+    width: 100px;
+    padding: 5px 5px;
+  }
+
+  #product1 .pro-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  #product1 .pro {
+    min-width: 100px;
+  }
+
+  #product1 .pro .cart {
+    display: none;
+  }
+
+  #product1 .pro img {
+    width: 100%;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  #sm-banner .banner-box {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  #banner-3 .banner-box {
+    border-radius: 30px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: auto;
+  }
+}
+
+@media (max-width: 280px) {
+  .logo {
+    display: none;
+  }
+
+  #navbar li {
+    list-style: none;
+    padding: 0 0;
+    position: relative;
+    margin: 3px;
+  }
+
+  #hero {
+    background-image: url(img/hero4.png);
+    height: 55vh;
+    width: 100%;
+    margin-top: 2px;
   }
 
   #feature {
