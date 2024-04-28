@@ -61,7 +61,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
-  background-color: #ffffff;
   box-shadow: 0 5px 15px rgba(191, 26, 26, 0.06);
 }
 
@@ -111,12 +110,14 @@ body {
   align-items: center;
 }
 #hero {
-  background-image: url(img/hero4.png);
+  background-image: url(img/SIDE\ AND\ BOTTOM\ VIEW\ 14.png);
+  background-repeat: no-repeat;
   height: 90vh;
   width: 100%;
-  background-color: top 25% right 0;
-  background-size: cover;
-  padding: 0 80px;
+  background-color: #fff;
+  background-size: contain;
+
+  padding: 0px 80px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
