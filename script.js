@@ -1,8 +1,8 @@
 // Script for navigation bar
-
 const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
 const close = document.getElementById('close');
+document.getElementById("h3").textContent = `$150`;
 
 
 if (bar) {
