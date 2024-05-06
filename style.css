@@ -899,6 +899,39 @@ button.red:hover {
     background-position: top 30% right 30%;
   }
 
+  #hero h4 {
+    margin-top: 40px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    line-height: 0px;
+    color: #222;
+    text-align: center;
+  }
+  #hero .trade-text {
+    text-align: center;
+    margin-top: 100px;
+  }
+  #hero h1 {
+    color: red;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #hero p {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #465b52;
+    text-align: center;
+  }
+
+  .products-slider h2 {
+    font-size: 36px;
+    line-height: 54px;
+    color: #465b52;
+    text-align: center;
+  }
+
   #product1 .pro-container {
     justify-content: center;
   }
