@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  transition: all 300ms ease;
 }
 
 /* Global Styles */
@@ -142,12 +143,20 @@ body {
   background-image: url(img/button.png);
   background-color: transparent;
   border: 0;
-  color: red;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
   cursor: pointer;
   font-weight: 700;
   font-size: 15px;
+  text-decoration: none;
+}
+#hero button a {
+  text-decoration: none;
+}
+
+#hero button a :hover {
+  text-decoration: none;
+  color: red;
 }
 
 .products-slider {
